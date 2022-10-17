@@ -1,0 +1,48 @@
+<button type="button" class="btn btn-danger" (click)="logOut()">Log Out</button>
+<div class="row">
+    <div class="col-md-5">
+        <div class="card">
+            <img class="card-img-top" width="30px" src="../../assets/images/laptop.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Laptop</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a routerLink="laptop" class="btn btn-primary">Go to laptop</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" width="30px" src="../../assets/images/tablet.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Tablet</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a routerLink="tablet" class="btn btn-primary">Go to tablet</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" width="30px" src="../../assets/images/tv.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">TV </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a routerLink="tv" class="btn btn-primary">Go to tv</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" width="30px" src="../../assets/images/washingmachine.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Washing Machine</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a routerLink="washingmachine" class="btn btn-primary">Go to wahsing machine</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div>
+            <!-- <button  type="button" class="btn btn-dark" (click)="onBack()">Back</button> -->
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
